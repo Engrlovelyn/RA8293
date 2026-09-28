@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RA 8293 — The Intellectual Property Code, Annotated for Developers</title>
+<meta name="description" content="An interactive guide to Republic Act No. 8293, the Intellectual Property Code of the Philippines — source code ownership, copyright, AI-generated code, fair use and infringement.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%230E1621%22/><text x=%2250%22 y=%2272%22 font-size=%2270%22 text-anchor=%22middle%22 fill=%22%23E0A93B%22 font-family=%22serif%22>§</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a href="#home" class="brand" data-magnetic><span class="brand-mark">§</span> RA&nbsp;8293</a>
+  <div class="now" id="now" aria-live="polite">00 — Home</div>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu" data-magnetic><span>Index</span><i></i></button>
+</header>
+
+<nav class="menu" id="menu" aria-label="Table of contents">
+  <ol>
+    <li><a href="#home"><b>00</b>Home</a></li>
+    <li><a href="#about"><b>01</b>About RA 8293</a></li>
+    <li><a href="#rights"><b>02</b>Intellectual Property Rights</a></li>
+    <li><a href="#ownership"><b>03</b>Source Code Ownership</a></li>
+    <li><a href="#software"><b>04</b>Copyright &amp; Software</a></li>
+    <li><a href="#ai-code"><b>05</b>AI-Generated Code &amp; IP</a></li>
+    <li><a href="#ai-agreement"><b>06</b>AI Usage Agreement</a></li>
+    <li><a href="#trade-secret"><b>07</b>Software as Trade Secret</a></li>
+    <li><a href="#fair-use"><b>08</b>Fair Use &amp; Legal Limitations</a></li>
+    <li><a href="#agreements"><b>09</b>IP Agreements</a></li>
+    <li><a href="#plagiarism"><b>10</b>Copyright vs. Plagiarism</a></li>
+    <li><a href="#infringement"><b>11</b>Infringement Issues</a></li>
+    <li><a href="#cases"><b>12</b>Case Studies</a></li>
+    <li><a href="#references"><b>13</b>References</a></li>
+  </ol>
+</nav>
+
+<main id="main">
+
+<!-- 00 HOME -->
+<section id="home" class="hero dark" data-label="00 — Home">
+  <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+  <canvas id="rain" aria-hidden="true"></canvas>
+  <div class="hero-in">
+    <p class="kicker">Republic of the Philippines · Tenth Congress</p>
+    <h1 class="hero-title" id="heroTitle"><span class="ln">Republic Act</span><span class="ln">No. <em>8293</em></span></h1>
+    <p class="hero-sub">The Intellectual Property Code of the Philippines — who owns an idea, a program, a brand, and a line of code, explained for people who ship software.</p>
+    <div class="hero-meta">
+      <span>Approved June 6, 1997</span><span>Took effect January 1, 1998</span><span>Amended by RA 9502 &amp; RA 10372</span>
+    </div>
+    <a class="cta" href="#about" data-magnetic>Start reading <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v16m0 0-6-6m6 6 6-6"/></svg></a>
+  </div>
+  <div class="stats">
+    <div><b data-count="7">0</b><span>kinds of IP rights<br><small>Sec. 4.1</small></span></div>
+    <div><b data-count="20">0</b><span>years, patent term<br><small>Sec. 54</small></span></div>
+    <div><b data-count="10">0</b><span>years, trademark term<br><small>Sec. 145</small></span></div>
+    <div><b data-count="6">0</b><span>bureaus inside IPOPHL<br><small>Sec. 6.2</small></span></div>
+  </div>
+</section>
+
+<div class="marquee dark" aria-hidden="true"><div class="marquee-track"><span>COPYRIGHT ✦ PATENTS ✦ TRADEMARKS ✦ INDUSTRIAL DESIGNS ✦ LAYOUT-DESIGNS ✦ GEOGRAPHIC INDICATIONS ✦ UNDISCLOSED INFORMATION ✦ </span><span>COPYRIGHT ✦ PATENTS ✦ TRADEMARKS ✦ INDUSTRIAL DESIGNS ✦ LAYOUT-DESIGNS ✦ GEOGRAPHIC INDICATIONS ✦ UNDISCLOSED INFORMATION ✦ </span></div></div>
+
+<!-- 01 ABOUT -->
+<section id="about" class="sec light" data-label="01 — About RA 8293">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">§ 01</span><h2 data-split>About RA 8293</h2><p class="lede reveal">One code, five parts, and a single office to run them.</p></div>
+    <div class="about-grid">
+      <div class="reveal prose">
+        <p><strong>Republic Act No. 8293</strong> is titled “An Act Prescribing the Intellectual Property Code and Establishing the Intellectual Property Office.” Section 1 gives it its short name: the <em>Intellectual Property Code of the Philippines</em>.</p>
+        <p>Section 2 states the policy in one balancing act. The State will protect the exclusive rights of scientists, inventors and artists — yet <mark>the use of intellectual property bears a social function</mark>, so it must also promote the diffusion of knowledge for national development and the common good. Almost every rule in this site is that balance being drawn somewhere specific.</p>
+        <p>The Code also created the <strong>Intellectual Property Office (IPO)</strong>, headed by a Director General, with six bureaus: Patents, Trademarks, Legal Affairs, Documentation/Information/Technology Transfer, MIS &amp; EDP, and Administrative/Financial/Personnel Services.</p>
+      </div>
+      <ol class="parts">
+        <li class="reveal"><b>Part I</b><span>The Intellectual Property Office</span><small>Secs. 1–19</small></li>
+        <li class="reveal"><b>Part II</b><span>The Law on Patents</span><small>Secs. 20–120</small></li>
+        <li class="reveal"><b>Part III</b><span>Trademarks, Service Marks &amp; Trade Names</span><small>Secs. 121–170</small></li>
+        <li class="reveal hl"><b>Part IV</b><span>The Law on Copyright</span><small>Secs. 171–223 · most relevant to software</small></li>
+        <li class="reveal"><b>Part V</b><span>Final Provisions</span><small>Secs. 224–241</small></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- 02 RIGHTS (horizontal scroll) -->
+<section id="rights" class="hs dark" data-label="02 — IP Rights">
+  <div class="hs-pin">
+    <div class="sec-head wrap"><span class="num">§ 02</span><h2 data-split>Intellectual Property Rights</h2><p class="lede">Section 4.1 lists seven. Scroll sideways — a single program can live in several at once.</p></div>
+    <div class="hs-track">
+      <article class="card tilt hot"><i>a</i><h3>Copyright &amp; Related Rights</h3><p>Protects the <em>expression</em> of an original work — including computer programs (Sec. 172.1[n]). Arises automatically on creation.</p><span class="tag">Your source code</span></article>
+      <article class="card tilt"><i>b</i><h3>Trademarks &amp; Service Marks</h3><p>Any visible sign that distinguishes goods or services (Sec. 121.1). Rights are acquired by <em>registration</em> (Sec. 122).</p><span class="tag">Your app’s name &amp; logo</span></article>
+      <article class="card tilt"><i>c</i><h3>Geographic Indications</h3><p>Signs identifying goods as coming from a place whose quality or reputation is linked to it.</p><span class="tag">e.g. regional products</span></article>
+      <article class="card tilt"><i>d</i><h3>Industrial Designs</h3><p>Any composition of lines, colors or three-dimensional form giving special appearance to a product (Sec. 112). Registered for 5 years, renewable twice.</p><span class="tag">Product looks</span></article>
+      <article class="card tilt"><i>e</i><h3>Patents</h3><p>New, inventive, industrially applicable technical solutions (Sec. 21). Note: “programs for computers” are excluded (Sec. 22.2).</p><span class="tag">Inventions</span></article>
+      <article class="card tilt"><i>f</i><h3>Layout-Designs of Integrated Circuits</h3><p>Protects chip topographies — the physical layout of a circuit, not the software running on it.</p><span class="tag">Chip layouts</span></article>
+      <article class="card tilt hot"><i>g</i><h3>Undisclosed Information</h3><p>Confidential business information — the legal home of trade secrets. Protected only while it stays secret.</p><span class="tag">Your secret algorithm</span></article>
+    </div>
+  </div>
+</section>
+
+<!-- 03 OWNERSHIP -->
+<section id="ownership" class="sec light" data-label="03 — Source Code Ownership">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">§ 03</span><h2 data-split>Source Code Ownership</h2><p class="lede reveal">Who owns the repository? Pick your situation — the Code answers differently for each.</p></div>
+    <div class="own reveal">
+      <div class="own-opts" id="ownOpts" role="tablist"></div>
+      <div class="own-out" id="ownOut" aria-live="polite"></div>
+    </div>
+    <p class="fine reveal">Ownership rules: Sec. 178 (author, joint authors, employees, commissioned works) and Sec. 180 (assignment must be shown in writing). Contracts can override the defaults — always put it in writing.</p>
+  </div>
+</section>
+
+<!-- 04 COPYRIGHT & SOFTWARE -->
+<section id="software" class="sec dark" data-label="04 — Copyright & Software">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">§ 04</span><h2 data-split>Copyright and Software</h2><p class="lede reveal">Computer programs are named outright as protected works — but only the expression, never the idea.</p></div>
+    <div class="diff reveal">
+      <div class="diff-bar"><i></i><i></i><i></i><span>protection.diff</span></div>
+      <pre><code><span class="ctx">@@ Sec. 172.2 — protected by the sole fact of creation @@</span>
+<span class="add">+ your exact source code, structure, sequence and comments</span>
+<span class="add">+ your UI text, documentation, and original arrangement of data</span>
+<span class="add">+ protection begins automatically — no registration, no © needed</span>
+<span class="ctx">@@ Sec. 175 — ideas are free for everyone @@</span>
+<span class="del">- the idea, procedure, method, system or principle behind the code</span>
+<span class="del">- mere data as such, and the official text of laws</span>
+<span class="ctx">@@ Sec. 22.2 — patents @@</span>
+<span class="del">- “programs for computers” are excluded from patent protection</span></code></pre>
+    </div>
+    <div class="trio">
+      <div class="reveal"><h3>What counts as a “program”?</h3><p>Sec. 171.4 describes a computer program as a set of instructions, in words, codes or any other form, that makes a computer perform a task when placed on a readable medium. That covers source <em>and</em> compiled code.</p></div>
+      <div class="reveal"><h3>What can the owner control?</h3><p>Sec. 177 gives economic rights: reproduction, adaptation, distribution, rental, public display and communication to the public. Moral rights — attribution and integrity — sit in Secs. 193–198.</p></div>
+      <div class="reveal"><h3>How long does it last?</h3><p>Generally the author’s lifetime plus 50 years. Registration and deposit are optional — they help prove ownership, not create it.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 05 AI CODE -->
+<section id="ai-code" class="sec light" data-label="05 — AI-Generated Code & IP">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">§ 05</span><h2 data-split>AI-Generated Code &amp; IP</h2><p class="lede reveal">RA 8293 dates from 1997 and never mentions AI. Slide to see how the Code’s wording pushes on each case.</p></div>
+    <div class="ai reveal">
+      <div class="ai-meter"><svg viewBox="0 0 200 110"><path class="g-bg" d="M15 100 A85 85 0 0 1 185 100"/><path class="g-fg" id="aiArc" d="M15 100 A85 85 0 0 1 185 100" pathLength="100"/></svg><b id="aiPct">50%</b><small>human creative input</small></div>
+      <div class="ai-ctl">
+        <input type="range" id="aiRange" min="0" max="100" value="50" aria-label="Amount of human creative input">
+        <div class="ai-ends"><span>AI wrote it all</span><span>Human wrote it, AI autocompleted</span></div>
+        <h3 id="aiHead"></h3><p id="aiText"></p>
+      </div>
+    </div>
+    <div class="two">
+      <p class="reveal">Sec. 172.1 protects “original intellectual creations,” and Sec. 178.1 vests copyright in <em>the author</em>. Both are written around a person who makes creative choices. Output produced with no human creative input has no obvious author — which is why its protection is uncertain.</p>
+      <p class="reveal"><strong>Analysis, not statute:</strong> the text of the Code does not address machine authorship, so this section reasons from its wording. Treat AI output as a draft you must review, edit and disclose — and check your instructor’s or employer’s policy.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 06 AI USAGE AGREEMENT -->
+<section id="ai-agreement" class="sec dark" data-label="06 — AI Usage Agreement">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">§ 06</span><h2 data-split>AI Usage Agreement</h2><p class="lede reveal">When the law is silent, a written agreement fills the gap. Tick the clauses — watch your policy write itself.</p></div>
+    <div class="policy reveal">
+      <div class="policy-opts" id="policyOpts"></div>
+      <div class="policy-doc"><div class="doc-bar"><span>AI_USAGE_POLICY.md</span><button id="copyPolicy" class="mini">Copy</button></div><pre id="policyOut"></pre></div>
+    </div>
+  </div>
+</section>
+
+<!-- 07 TRADE SECRET -->
+<section id="trade-secret" class="sec light" data-label="07 — Software as Trade Secret">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">§ 07</span><h2 data-split>Software as Trade Secret</h2><p class="lede reveal">Sec. 4.1(g) lists “undisclosed information” as an IP right. Its strength is secrecy itself.</p></div>
+    <div class="vault-wrap reveal">
+      <div class="vault" id="vault">
+        <svg viewBox="0 -24 220 246" aria-hidden="true">
+          <rect x="20" y="30" width="180" height="170" rx="22" class="v-body"/>
+          <circle cx="110" cy="115" r="46" class="v-ring"/>
+          <g class="v-wheel"><path d="M110 78v74M73 115h74M84 89l52 52M136 89l-52 52"/></g>
+          <circle cx="110" cy="115" r="9" class="v-hub"/>
+          <path class="v-shackle" d="M85 30v-12a25 25 0 0 1 50 0v12"/>
+        </svg>
+        <div class="meter"><i id="secMeter"></i></div><small id="secPct">Protection: 100%</small>
+      </div>
+      <div class="vault-txt">
+        <h3 id="secHead">Locked down</h3>
+        <p id="secText">The matching algorithm lives in a private repo, behind NDAs and access controls. As long as it stays confidential, it keeps its value.</p>
+        <button class="btn" id="secBtn" data-magnetic>Push it to a public repo</button>
+        <ul class="ticks"><li>Non-disclosure agreements</li><li>Restricted repository access</li><li>Obfuscated builds</li><li>“Need-to-know” permissions</li></ul>
+        <p class="fine">There is no registration and no fixed term — protection lasts only while the information is secret.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 08 FAIR USE -->
+<section id="fair-use" class="sec dark" data-label="08 — Fair Use & Legal Limitations">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">§ 08</span><h2 data-split>Fair Use &amp; Legal Limitations</h2><p class="lede reveal">Copyright is not absolute. Sec. 184 lists limitations; Sec. 185 sets the four fair-use factors. Try the scales.</p></div>
+    <div class="fair reveal">
+      <div class="fair-sliders" id="fairSliders"></div>
+      <div class="fair-out"><svg viewBox="0 0 200 110"><defs><linearGradient id="gg" x1="0" x2="1"><stop offset="0" stop-color="#E0603A"/><stop offset=".5" stop-color="#E0A93B"/><stop offset="1" stop-color="#3FB58A"/></linearGradient></defs><path d="M15 100 A85 85 0 0 1 185 100" fill="none" stroke="url(#gg)" stroke-width="14" stroke-linecap="round"/><g id="needle"><line x1="100" y1="100" x2="100" y2="30" stroke="#F4EFE2" stroke-width="3" stroke-linecap="round"/><circle cx="100" cy="100" r="7" fill="#F4EFE2"/></g></svg>
+        <h3 id="fairHead">Leans fair use</h3><p id="fairText"></p></div>
+    </div>
+    <p class="fine reveal light-t">Sec. 185 allows use “for purposes such as criticism, comment, news reporting, teaching, scholarship, research” when the four factors support it. Sec. 184.1(b) requires acknowledging the source and author when quoting. This tool is an illustration — courts weigh the factors together, case by case.</p>
+  </div>
+</section>
+
+<!-- 09 AGREEMENTS -->
+<section id="agreements" class="sec light" data-label="09 — IP Agreements">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">§ 09</span><h2 data-split>Intellectual Property Agreements</h2><p class="lede reveal">The contracts that move rights around before anyone argues about them.</p></div>
+    <div class="tabs reveal">
+      <div class="tab-list" id="tabList" role="tablist"></div>
+      <div class="tab-body" id="tabBody" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 10 PLAGIARISM -->
+<section id="plagiarism" class="sec dark" data-label="10 — Copyright vs. Plagiarism">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">§ 10</span><h2 data-split>Copyright vs. Plagiarism</h2><p class="lede reveal">One is a legal wrong, the other an ethical one. Tap an example to see where it lands.</p></div>
+    <div class="venn reveal">
+      <svg viewBox="0 0 520 320" id="vennSvg" role="img" aria-label="Venn diagram of copyright infringement and plagiarism">
+        <circle cx="200" cy="150" r="120" class="c1"/><circle cx="320" cy="150" r="120" class="c2"/>
+        <text x="130" y="60" class="vt">Copyright</text><text x="130" y="78" class="vt">infringement</text>
+        <text x="390" y="60" class="vt">Plagiarism</text>
+        <text x="260" y="155" class="vt mid">Both</text>
+        <text x="260" y="300" class="vt low">Neither</text>
+      </svg>
+      <div>
+        <div class="chips" id="vennChips"></div>
+        <div class="venn-out" id="vennOut" aria-live="polite"></div>
+      </div>
+    </div>
+    <div class="cmp reveal">
+      <div><h4>Copyright infringement</h4><p>Using a protected work without the owner’s permission or a legal exception. <b>Enforced by law</b> — administrative, civil, criminal.</p></div>
+      <div><h4>Plagiarism</h4><p>Passing off someone else’s work as your own. The Code does not define it as an offense; <b>schools and employers</b> punish it.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 11 INFRINGEMENT -->
+<section id="infringement" class="sec light" data-label="11 — Infringement Issues">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">§ 11</span><h2 data-split>Infringement Issues</h2><p class="lede reveal">Using a protected work without authorization can be answered on three fronts.</p></div>
+    <ol class="timeline" id="timeline">
+      <li><b>Administrative</b><h3>IPO Bureau of Legal Affairs</h3><p>Sec. 10.2: for complaints where damages claimed are at least P200,000, it can issue cease-and-desist orders, seize infringing goods, and fine between P5,000 and P150,000 plus up to P1,000 per day of continuing violation.</p></li>
+      <li><b>Civil</b><h3>Court action for damages &amp; injunction</h3><p>The owner may sue for damages and an injunction, and ask that infringing copies and tools be impounded (copyright remedies in Part IV, Secs. 216 ff.). For patents, Sec. 76 allows damages of up to three times the actual amount.</p></li>
+      <li><b>Criminal</b><h3>Fines and imprisonment</h3><p>Willful infringement is punishable (copyright penalties: Sec. 217). For repeated patent infringement after a final judgment, Sec. 84 sets 6 months to 3 years in prison and/or a P100,000–P300,000 fine.</p></li>
+    </ol>
+    <p class="fine reveal">Exact penalty ranges for copyright are set in Sec. 217 — read the full text before relying on them.</p>
+  </div>
+</section>
+
+<!-- 12 CASES -->
+<section id="cases" class="sec dark" data-label="12 — Case Studies">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">§ 12</span><h2 data-split>Case Studies &amp; Scenarios</h2><p class="lede reveal">Decide first, then flip the card.</p></div>
+    <div class="flips" id="flips"></div>
+  </div>
+</section>
+
+<!-- 13 REFERENCES -->
+<section id="references" class="sec light" data-label="13 — References">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">§ 13</span><h2 data-split>References &amp; Attribution</h2><p class="lede reveal">Every section number on this site points back to the primary text.</p></div>
+    <div class="refs">
+      <div class="reveal"><h3>Sources</h3>
+        <ol>
+          <li>Republic Act No. 8293, <em>Intellectual Property Code of the Philippines</em> (June 6, 1997). LawPhil Project, Arellano University School of Law. <a href="https://www.lawphil.net/statutes/repacts/ra1997/ra_8293_1997.html" target="_blank" rel="noopener">lawphil.net/statutes/repacts/ra1997/ra_8293_1997.html</a></li>
+          <li>Intellectual Property Office of the Philippines (IPOPHL). <a href="https://www.ipophil.gov.ph" target="_blank" rel="noopener">ipophil.gov.ph</a></li>
+          <li>Official Gazette of the Republic of the Philippines. <a href="https://www.officialgazette.gov.ph" target="_blank" rel="noopener">officialgazette.gov.ph</a></li>
+          <li>Course lecture materials, Computer Laboratory Activity: RA 8293 Intellectual Property Website.</li>
+        </ol>
+      </div>
+      <div class="reveal"><h3>Open-source attribution</h3>
+        <ul>
+          <li><a href="https://gsap.com" target="_blank" rel="noopener">GSAP + ScrollTrigger</a> — animation (GreenSock standard license)</li>
+          <li><a href="https://lenis.darkroom.engineering" target="_blank" rel="noopener">Lenis</a> — smooth scrolling (MIT)</li>
+          <li><a href="https://github.com/lukePeavey/SplitType" target="_blank" rel="noopener">SplitType</a> — text splitting (MIT)</li>
+          <li><a href="https://micku7zu.github.io/vanilla-tilt.js/" target="_blank" rel="noopener">vanilla-tilt.js</a> — card tilt (MIT)</li>
+          <li>Fonts via <a href="https://fontsource.org" target="_blank" rel="noopener">Fontsource</a>: Fraunces, Instrument Sans, JetBrains Mono (SIL OFL)</li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine reveal">Educational summary, not legal advice. Sections were paraphrased from the Code; for exact wording, penalties and later amendments, read the full text at LawPhil or consult a licensed attorney.</p>
+  </div>
+</section>
+
+</main>
+<footer class="foot dark"><span>§</span><p>RA 8293 · Intellectual Property Code of the Philippines · Computer Laboratory Activity</p></footer>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="assets/vendor/split-type.min.js"></script>
+<script src="assets/vendor/vanilla-tilt.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
